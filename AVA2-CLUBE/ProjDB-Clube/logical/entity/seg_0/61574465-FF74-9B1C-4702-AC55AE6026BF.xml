@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61574465-FF74-9B1C-4702-AC55AE6026BF" name="Endereço">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:25:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bairro" id="7BE7CBD2-B6DA-3DE4-6C54-5E6F462C31CF">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:25:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nmr_logradouro" id="447A6572-F4AB-EAEA-98BA-B32ADE4EE456">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:26:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro" id="A79989BC-B536-D3CA-C6FC-52154CE2AD48">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:27:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="56768989-B6F8-755B-CE47-24BD7F872847">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:28:55 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="FA53AC46-C40F-4D79-81D8-F920536C707D">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:33:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="7ACD49BF-CE97-537D-C08C-4FC5662E7095">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:34:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="C348DEC4-E8FA-C490-A4DD-7B571627E6E5">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:34:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="D5CC71EF-9D9A-6EC6-C3E1-48AA0D9B24B7">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:57:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="C06F1047-6D42-3362-797A-88333EE14850">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-20 00:01:14 UTC</createdTime>
+<generatorID>AB2E80BC-014D-8B04-AE75-830F70DBFF6D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<referedAttribute>450BEE30-2E4D-86AA-4D51-8FC8159C5F4E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="63CE3D41-4356-088C-41F7-4DD7B2467CEC">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-20 00:01:35 UTC</createdTime>
+<generatorID>1F64E038-29E0-FAE1-20BB-097470E4832C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<referedAttribute>DC738DA4-42E7-9FAD-CB5C-BD942201B623</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E140995D-6A42-788C-0003-08C17E2FD783" name="Endereço PK">
+<createdBy>pablloleviev</createdBy>
+<createdTime>2025-05-19 23:57:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="EB195827-E504-A7AE-3660-925C2834BB78" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5CC71EF-9D9A-6EC6-C3E1-48AA0D9B24B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
